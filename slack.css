@@ -1,0 +1,100 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: #E3E4E5 url("backgroundimage.png") right bottom no-repeat;
+	height: 750px;
+	margin-top: -16px;
+}
+
+header > nav > ul > li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 15px 10px;
+}
+
+header > nav > ul > li > a {
+	color: #4A545B;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logo {float: left;}
+
+h1 {
+	font-size: 94px;
+	color: #253039;
+	font-family: sans-serif;
+}
+
+.signin {
+	border: 2px solid #4A545B;
+	border-radius: 5px;
+	padding: 10px
+}
+
+input {
+	padding: 15px;
+	border-radius: 2px;
+}
+
+input[type=email] {border: 1px solid #B2B2B3;}
+
+input[type=submit] {
+	border: 1px solid #42C299;
+	background-color: #42C299;
+	color: #fff;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+header > p {
+	color: #253039;
+	font-family: sans-serif;
+}
+
+small a {
+	text-decoration: underline;
+	color: #70787D;
+}
+
+sup {
+	color: #CE1E69;
+	font-size: 40px;
+}
+
+footer {
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer > ul {line-height: 1.6rem;}
+
+footer > ul > li {list-style-type: none;}
+
+.category1 {color: #F0B437;}
+
+.category2 {color: #E32D7F;}
+
+.category3 {color: #30B27F;}
+
+.category4 {color: #506FC7;}
+
+.category1, .category2, .category3, .category4, .category5 {
+	font-size: .6875rem;
+	font-weight: 700;
+}
+
+footer > ul > li > a {
+	color: #9e9ea6;
+	font-size: .82rem;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.fa-slack {color: #A0A0A2;}
